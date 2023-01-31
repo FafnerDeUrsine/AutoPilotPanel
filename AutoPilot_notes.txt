@@ -1,0 +1,39 @@
+Auto Pilot Console Project
+Jesse Hartman
+1/30/23
+
+A physical console for controlling Auto Pilot commands in MSFS.
+
+Needs a PIC microcontroller to handle:
+
+13 Buttons (with MUX)
+12 LEDS (with an LED driver)
+2 rotery encoder knobs for VS speed and Heading
+1 duel rotery encoders for altitude
+
+(Optional)
+2 OLED screens for NAV and VNAV information
+
+
+
+For the PIC:
+
+USB function:
+2 pins needed for D+/D-
+
+5 GPIOs for the buttons. (4 address and a data)
+
+3 GPIO for LEDs
+
+(optional) 1 pin to PWM the LED dim
+
+2 GPIO for encoder MUXs, reusing the address bus from the buttions
+
+
+Total of 10 GPIOs, 1 PWM (optional), 2 for USB 
+
+Time to search DigiKey.
+
+...
+
+PIC18F4550-I/P looks to be the one, 40-PIN package like the 16f877a so "should" be easy to program. 
