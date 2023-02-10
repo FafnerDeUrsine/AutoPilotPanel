@@ -37,3 +37,5 @@ Time to search DigiKey.
 ...
 
 PIC18F4550-I/P looks to be the one, 40-PIN package like the 16f877a so "should" be easy to program. 
+
+Duel Encoder: https://www.digikey.com/en/products/detail/bourns-inc/PEC11D-4120F-H0015/15926291
